@@ -3,4 +3,4 @@ spring:
     name: springboot-auto-configuration
   task:
     execution:
-      thread-name-prefix: myTask-
+      thread-name-prefix: myTask- # Bean 등록으로 설정을 바꾸는 것이 아닌, application 설정만 추가해주면 된다.
